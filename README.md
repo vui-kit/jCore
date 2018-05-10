@@ -1,5 +1,4 @@
-# jCore
-A Web Application Framework and Set of Custom Components built on React
+<img src="jCore_Logo.png" />
 
 # The goal of this project is to provide designers who need the ability to build applications without having to have an deep set of development skills.
 
