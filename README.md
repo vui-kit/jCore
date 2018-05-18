@@ -1,5 +1,7 @@
 <img src="jCore_Logo.png" />
 
+[![Build Status][jlomoglio-badge]][jlomoglio-badge-url]
+
 # The goal of this project is to provide designers who need the ability to build applications without having to have an deep set of development skills.
 
 jCore leverages the power of React to provide designers with a large amount of custom prebuilt components that will let them rapidly build or prototye a design.
