@@ -92,7 +92,7 @@ the data-jblock attribute tells jCore which jblock template to use.
 ```
 <!-- jblocks/containers/footers/simple -->
 <template>
-	<span class="copyright">jCore & jBlock &copy 2018 Joe LoMoglio. All rights reserved.</span>
+  <span class="copyright">jCore & jBlock &copy 2018 Joe LoMoglio. All rights reserved.</span>
 </template>
 
 <style scoped="true">
