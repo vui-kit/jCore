@@ -1,0 +1,97 @@
+[jBlock="jbAccordion"] {
+    margin-top: 15px !important;
+    margin-left: 10px !important;;
+    width: 100%;
+}
+
+[jBlock="jbAccordion"],
+[jBlock="jbAccordion"] ul,
+[jBlock="jbAccordion"] li,
+[jBlock="jbAccordion"] a {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+    font-weight: normal;
+    text-decoration: none;
+    line-height: 1;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    position: relative;
+}
+
+[jBlock="jbAccordion"] a {
+    line-height: 1.3;
+}
+
+[jBlock="jbAccordion"] > ul > li > a {
+    padding-right: 0px;
+    font-weight: bold;
+    display: block;
+    background-color: rgba(247, 247, 247, .3);
+    color: #555;
+    border-bottom: none;
+    position: relative;
+}
+
+[jBlock="jbAccordion"] > ul > li > a > span {
+    background-color: rgba(247, 247, 247, .3);
+    padding: 12px;
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+[jBlock="jbAccordion"] ul > li > a:hover {
+    text-decoration: none;
+}
+
+[jBlock="jbAccordion"] > ul > li.active {
+    border-bottom: none;
+}
+
+[jBlock="jbAccordion"] > ul > li.active > a {
+    color: #000;
+}
+
+[jBlock="jbAccordion"] ul > li.active > a span {
+    background-color: rgba(247, 247, 247, .3);
+}
+
+[jBlock="jbAccordion"] ul ul {
+    display: none;
+}
+
+[jBlock="jbAccordion"] ul ul li {
+    border: none;
+    border-right: none;
+    border-top: 0;
+    background-color: rgba(247, 247, 247, .3);
+}
+
+[jBlock="jbAccordion"] ul ul a {
+    padding: 10px;
+    padding-left: 30px;
+    display: block;
+    color: #717171;
+    font-size: 14px;
+    font-weight: normal !important;
+    font-family: 'Open Sans', sans-serif;
+}
+
+[jBlock="jbAccordion"] ul ul a:hover {
+    color: #ed1144;
+}
+
+[jBlock="jbAccordion"] ul ul li.odd {
+    background: #f4f4f4;
+}
+
+[jBlock="jbAccordion"] ul ul li.even {
+    background: #fff;
+}
+
+/* Small only (639px) */
+@media screen and (max-width: 39.9375em) {
+    
+}

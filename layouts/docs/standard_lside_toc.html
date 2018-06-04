@@ -1,0 +1,196 @@
+<section data-view="docs" class="no-js">
+    <div role="search">
+        <div class="input-group">
+          <span class="input-group-label"><i class="fi-magnifying-glass"></i></span>
+          <input id="search-field" class="input-group-field" type="text" placeholder="Search docs for what you need" />
+      </div>
+    </div>
+    <div role="toc" data-jblock="">
+        <ul id="accordion">
+        	<li><div>Getting Started</div>
+        		<ul>
+        			<li><a data-route="docs/getting-started/welcome">Welcome</a></li>
+        			<li><a data-route="">What's Included</a></li>
+        			<li><a data-route="">Compatibility</a></li>
+        		</ul>
+        	</li>
+        	<li><div>Setup</div>
+        		<ul>
+        			<li><a data-route="">Global Styles</a></li>
+        			<li><a data-route="">Javascript</a></li>
+                    <li><a data-route="">Routing</a></li>
+        			<li><a data-route="">Media Queries</a></li>
+        		</ul>
+        	</li>
+        	<li><div>General</div>
+        		<ul>
+        			<li><a data-route="">XY Grid</a></li>
+        			<li><a data-route="">Visibility Classes</a></li>
+                    <li><a data-route="">Float Classes</a></li>
+        			<li><a data-route="">Forms</a></li>
+        		</ul>
+        	</li>
+            <li><div>Typography</div>
+        		<ul>
+        			<li><a data-route="">Base Styles</a></li>
+        			<li><a data-route="">Helper Classes</a></li>
+        		</ul>
+        	</li>
+            <li><div>jBlocks</div>
+        		<ul>
+        			<li><a data-route="">Charts</a></li>
+        			<li><a data-route="">Containers</a></li>
+        			<li><a data-route="">Forms</a></li>
+                    <li><a data-route="">Kits</a></li>
+                    <li><a data-route="">Misc</a></li>
+                    <li><a data-route="">Navigation</a></li>
+                    <li><a data-route="">Tables</a></li>
+                    <li><a data-route="">UI Elements</a></li>
+                    <li><a data-route="">Widgets</a></li>
+        		</ul>
+        	</li>
+            <li><div>Layouts</div>
+        		<ul>
+                    <li><a data-route="">Admin</a></li>
+        			<li><a data-route="">Blog</a></li>
+        			<li><a data-route="">Dashboard</a></li>
+                    <li><a data-route="">Docs</a></li>
+                    <li><a data-route="">eCommerce</a></li>
+                    <li><a data-route="">Forum</a></li>
+                    <li><a data-route="">Photo Gallery</a></li>
+                    <li><a data-route="">Marketing</a></li>
+                    <li><a data-route="">News</a></li>
+                    <li><a data-route="">Portfolio</a></li>
+                    <li><a data-route="">Profile</a></li>
+                    <li><a data-route="">Project</a></li>
+                    <li><a data-route="">Schedule</a></li>
+                    <li><a data-route="">Timeline</a></li>
+        		</ul>
+        	</li>
+            <li><div>Views</div>
+        		<ul>
+        			<li><a data-route="">General</a></li>
+        		</ul>
+        	</li>
+        </ul>
+    </div>
+    <div role="doc-content">
+        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    </div>
+</section>
+
+<script>
+$("#accordion > li > div").click(function(){
+
+	if(false == $(this).next().is(':visible')) {
+		$('#accordion ul').slideUp(300);
+	}
+	$(this).next().slideToggle(300);
+});
+
+$('#accordion ul:eq(0)').show();
+</script>
+<!-- <script src="assets/js/routes.js"></script> -->
+
+<style scoped="true">
+
+
+[data-view="docs"] > [role="search"] {
+    position: fixed;
+    top: 75px;
+    left: 240px;
+    right: 0;
+    height: 60px;
+    background-color: #fff;
+}
+
+[data-view="docs"] > [role="search"] > .input-group {
+    height: 60px !important;
+    border-bottom: 1px solid #ccc !important;
+}
+
+[data-view="docs"] > [role="search"] > .input-group > .input-group-label {
+    font-size: 30px;
+    color: darkgrey;
+}
+
+[data-view="docs"] > [role="search"] > .input-group > .input-group-field {
+    border-top: 1px solid transparent !important;
+    border-left: 1px solid transparent !important;
+    border-right: 1px solid transparent !important;
+    border-bottom: 1px solid transparent !important;
+    font-weight: 200;
+    font-size: 20px;
+    color: grey;
+}
+
+[data-view="docs"] > [role="search"] > .input-group > .input-group-field :focus {
+    outline: solid transparent !important;
+}
+
+[data-view="docs"] > [role="search"] > .input-group > .input-group-label {
+    background: white !important;
+    border: 1px solid white !important;
+}
+
+[data-view="docs"] > [role="toc"] {
+    width: 240px;
+    border-right: 1px solid #ccc;
+    overflow-y: scroll;
+    position: fixed;
+    top: 75px;
+    bottom: 0;
+    background-color: #fff;
+}
+
+#accordion {
+	list-style: none;
+	padding: 20px 0 0 0;
+	width: 170px;
+}
+
+#accordion div {
+	display: block;
+	background-color: #fff;
+	font-weight: bold;
+	margin: 1px;
+	cursor: pointer;
+	padding: 10px;
+	list-style: circle;
+}
+
+#accordion ul {
+	list-style: none;
+	padding: 0 0 0 0;
+}
+
+#accordion ul {
+	display: none;
+}
+
+#accordion ul li {
+	font-weight: normal;
+	cursor: auto;
+	background-color: #fff;
+	padding: 5px;
+}
+
+#accordion ul li > a {
+    text-decoration: none !important;
+}
+
+#accordion a {
+	text-decoration: none;
+}
+
+#accordion a:hover {
+	text-decoration: underline;
+}
+
+[data-view="docs"] > [role="content"] {
+    margin-left: 240px;
+    padding: 20px;
+}
+</style>

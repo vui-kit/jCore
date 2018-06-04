@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="692px" height="230px" viewBox="0 0 692 230" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="14.7528451%" y1="49.7500002%" x2="101.257813%" y2="49.7500002%" id="linearGradient-1">
+            <stop stop-color="#3023AE" offset="0%"></stop>
+            <stop stop-color="#53A0FD" offset="99.4558345%"></stop>
+            <stop stop-color="#B4EC51" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#5D9EE7" offset="0%"></stop>
+            <stop stop-color="#D8D8D8" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#6FA7E4" offset="0%"></stop>
+            <stop stop-color="#D8D8D8" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#4091EA" offset="0%"></stop>
+            <stop stop-color="#D8D8D8" offset="100%"></stop>
+        </linearGradient>
+        <radialGradient cx="58.7479472%" cy="62.2601708%" fx="58.7479472%" fy="62.2601708%" r="100%" gradientTransform="translate(0.587479,0.622602),scale(0.696429,1.000000),rotate(90.000000),translate(-0.587479,-0.622602)" id="radialGradient-5">
+            <stop stop-color="#FAD961" offset="0%"></stop>
+            <stop stop-color="#F76B1C" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-36.000000, -21.000000)">
+            <g id="Group-3" transform="translate(48.000000, -70.000000)">
+                <g id="Group-2">
+                    <text id="jCore" font-family="Arial-Black, Arial Black" font-size="244" font-weight="700" letter-spacing="-4.5">
+                        <tspan x="0" y="269" fill="#F8A842">j</tspan>
+                        <tspan x="76.7539062" y="269" fill="#3024AF">Cor</tspan>
+                        <tspan x="524.089844" y="269" fill="#3024AF">e</tspan>
+                    </text>
+                    <g id="Core" transform="translate(267.000000, 119.020000)">
+                        <circle id="Oval" fill="url(#linearGradient-1)" cx="77.5" cy="77.5" r="77.5"></circle>
+                        <path d="M149,77 C149,36.9655397 116.662978,3 77,3 L77,66.5947222" id="Oval-2" stroke="#979797" fill="url(#linearGradient-2)"></path>
+                        <path d="M148.588867,97.7314453 C148.588867,87.0622259 138.557525,80.1298234 127.967142,75.66176 C113.844241,69.7033334 93.1541569,64.1981812 75.2410849,66.5599786 C55.2536796,69.1952721 50.0179903,69.1765387 33.3291016,75.66176 L78.3377201,108 L148.588867,97.7314453 Z" id="Oval-2-Copy-2" fill="url(#linearGradient-3)" transform="translate(90.958984, 87.000000) scale(1, -1) translate(-90.958984, -87.000000) "></path>
+                        <path d="M78,97 C78,73.8056116 71.9803489,31.115875 58.5753423,16.9861847 C52.999702,11.1091215 42.1341338,3 34.3098572,3 L34,66.2729659 L78,97 Z" id="Oval-2-Copy" stroke="#979797" fill="url(#linearGradient-4)" transform="translate(56.000000, 50.000000) scale(-1, 1) translate(-56.000000, -50.000000) "></path>
+                        <path d="M77.9184025,47.1053889 C63.7633653,48.8102608 53.9115354,80.0773417 57.888417,80.0773417 C61.8652987,80.0773417 71.6522688,87.7432833 89.1078703,85.6322173 C94.5159647,84.9781668 102.480008,80.0627374 113,70.8859291 C98.9776712,53.9042405 87.2838053,45.9773938 77.9184025,47.1053889 Z" id="Path-2" stroke="#979797" fill="url(#radialGradient-5)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

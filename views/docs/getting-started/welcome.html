@@ -1,0 +1,66 @@
+<section jcView="welcome">
+    <ul class="breadcrumb">
+        <li><a data-route="docs">Docs</a></li>
+        <li>Getting Started</li>
+        <li>Welcome</li>
+    </ul>
+
+    <h2>Welcome</h2>
+    <h5>
+        Get started with jCore, the world's most complete frontend single page framework
+        for building responsive, mobile-first sites and applications with my
+        jCore project skeleton and library of jBlock components.
+    </h5>
+    <p>
+        I built jCore to be a complete single page frontend framework that
+        makes developing web applications easier by leveraging the simplicity of
+        jQuery and Foundation and an application architecture inspired by .Net MVC's
+        master pages and Vue's page templates.
+    </p>
+</section>
+
+<script>
+
+</script>
+
+<style scoped="true">
+[view="welcome"] {
+    margin-top: 20px;
+}
+
+/* Style the list */
+ul.breadcrumb {
+    /* padding: 10px 16px; */
+    list-style: none;
+    margin-top: 10px;
+    margin-left: 0;
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+    display: inline;
+    font-size: 16px;
+}
+ul.breadcrumb li:last-child {
+    font-weight: bold;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+}
+</style>

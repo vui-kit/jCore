@@ -1,0 +1,119 @@
+<div class="grid-x grid-margin-x">
+    <div class="cell large-4 show-for-large">
+        <div class="core-img-wrapper">
+            <img src="assets/img/core.svg" />
+        </div>
+    </div>
+    <div class="cell small-12 medium-12 large-8 pad-top-20">
+        <h1 class="mobile">jCore 1.0</h1>
+        <h4 class="mobile">A WEB FRAMEWORK FOR THE REST OF US</h4>
+        <p>
+            <strong>jCore</strong> is a JavaScript client mobile-first responsive framework
+            that leverages standard web technologies to empower your creativity.
+        </p>
+        <div class="row">
+            <a data-route="" class="button float-left" style="width:48%">Why jCore?</a>
+            <a data-route="" class="hollow button float-right" style="width:48%">Get Started</a>
+        </div>
+    </div>
+</div>
+
+<script>
+
+</script>
+
+<style scoped="true">
+/* Default: Applies to ALL */
+[role="hero"] {
+    height: auto;
+    padding: 50px;
+    background-color: #eceff1;
+    background-image: url('assets/img/quad_core_background.png');
+    background-size: cover;
+}
+
+[role="hero"] > .grid-x > .cell > .core-img-wrapper {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    background-color: white;
+    padding-top: 25px;
+    -webkit-box-shadow: 1px 1px 1px 0px rgba(107,102,107,1);
+    -moz-box-shadow: 1px 1px 1px 0px rgba(107,102,107,1);
+    box-shadow: 1px 1px 1px 0px rgba(107,102,107,1);
+}
+
+[role="hero"] > .grid-x  > .cell > .core-img-wrapper > img {
+    margin: auto;
+    display: block;
+    width: 250px;
+    height: 250px;
+}
+
+
+/* Small only (639px) */
+@media screen and (max-width: 39.9375em) {
+    [role="hero"]  {
+        height: auto;
+        padding: 20px;
+        background-color: #eceff1;
+        background-image: url('assets/img/quad_core_background.png');
+        background-size: cover;
+    }
+
+    [role="hero"] .grid-x > .cell > h1.mobile {
+        font-size: 230%;
+        font-weight: bold;
+    }
+
+    [role="hero"] .grid-x > .cell > h4.mobile {
+        font-size: 95%;
+        font-weight: bold;
+    }
+}
+
+/* Medium and up (640px) */
+@media screen and (min-width: 40em) {
+    [role="hero"] > .grid-x > .cell > .core-img-wrapper {
+        width: 200px;
+        height: 200px;
+        border-radius: 100px;
+    }
+
+    [role="hero"] > .grid-x > .cell > .core-img-wrapper > img {
+        width: 160px;
+        height: 160px;
+    }
+}
+
+/* Medium only (640px) (1023px) */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {}
+
+/* Large (1024) (1279) */
+@media screen and (min-width: 64em) and (max-width: 79.938em) {
+    [role="hero"] > .grid-x > .cell > .core-img-wrapper {
+        width: 250px;
+        height: 250px;
+        border-radius: 125px;
+    }
+
+    [role="hero"] > .grid-x  > .cell > .core-img-wrapper > img {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+/* Large only (1280px) */
+@media screen and (min-width: 80em) {
+    [role="hero"] > .grid-x > .cell > .core-img-wrapper {
+        width: 350px;
+        height: 350px;
+        border-radius: 175px;
+    }
+
+    [role="hero"] > .grid-x  > .cell > .core-img-wrapper > img {
+        width: 300px;
+        height: 300px;
+    }
+}
+</style>

@@ -1,0 +1,103 @@
+
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  margin-bottom: 0.5rem;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.2;
+  color: inherit;
+}
+
+h1, .h1 {
+  font-size: 2.5rem;
+}
+
+h2, .h2 {
+  font-size: 2rem;
+}
+
+h3, .h3 {
+  font-size: 1.75rem;
+}
+
+h4, .h4 {
+  font-size: 1.5rem;
+}
+
+h5, .h5 {
+  font-size: 1.25rem;
+}
+
+h6, .h6 {
+  font-size: 1rem;
+}
+
+
+.pad-top-20 {
+    padding-top: 20px;
+}
+
+body {
+    margin-top: 76px;
+	color: #555;
+}
+
+.current {
+	color: #2262AD;
+}
+
+[data-route] {
+    cursor: pointer;
+}
+
+
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+small,
+.small {
+  font-size: 80%;
+  font-weight: 400;
+}
+
+
+/* Mobile Styles */
+@media only screen and (max-width: 640px) {
+    h1, h2, h3, h4 {
+        font-family: 'Arial Black', sans-serif;
+        /* line-height: 38px;
+        margin: 10px 0; */
+    }
+
+    h2 {
+        font-size: 40px;
+        line-height: 48px;
+        margin-top: 15px;
+    }
+
+    h5 {
+        font-size: 20px;
+        line-height: 26px;
+        margin-top: 15px;
+    }
+
+}

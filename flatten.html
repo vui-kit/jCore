@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<head>
+
+</head>
+<body>
+<script>
+const originalArray = [[1,2,[3,4,5]],6,7,8];
+const flattenedArray = new Array();
+
+let flatten = (arrIn) => {
+	for(var i = 0; i < arrIn.length; i++) {
+		(typeof(arrIn[i]) === "object") ? flatten(arrIn[i]) : flattenedArray.push(arrIn[i]);
+	}
+}
+
+flatten(originalArray);
+
+console.log('OriginalArray:  ' + originalArray);
+console.log('FlattenedArray: ' + flattenedArray);
+</script>
+</body>
