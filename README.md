@@ -1,6 +1,5 @@
-<img src="jCore_Logo.png" />
+<img src="jCore_Logo.png" height="150" />
 
-# A WEB FRAMEWORK FOR THE REST OF US
 
 jCore is a JavaScript client mobile-first responsive framework that leverages standard web technologies to empower your creativity.
 
