@@ -2,7 +2,7 @@
 
 jCore is a JavaScript client mobile-first responsive framework that leverages standard web technologies to empower your creativity.
 
-As a VueJS developer I spend a fair amount of time at the end of my projects having to build documentation sites. So I decided that I wanted to have a framework thatcould mimic how vue works, but leveraged jQuery, so that it would be quick and simple to build any basic website or documentation site. So I built jCore.
+As a VueJS developer I spend a fair amount of time at the end of my projects having to build documentation sites. So I decided that I wanted to have a framework that could mimic how my vue files work, but leverage jQuery, so that it would be quick and simple to build any basic website or documentation site. So I built jCore.
 
 ## Basic Usage
 ### index.html
